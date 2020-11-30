@@ -1,0 +1,12 @@
+ca:
+  cert: /etc/ca/cert.pem
+  key: /etc/ca/key.pem
+bastion: b.example.com
+hosts:
+  - host: h1.example.com
+    certs_dir: /etc/auth_certs/
+    user: ubuntu
+  - host: h2.example.com
+    certs_dir: /etc/auth_certs/
+    user: ubuntu
+
